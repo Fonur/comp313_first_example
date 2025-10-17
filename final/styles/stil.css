@@ -1,0 +1,43 @@
+header, h6 {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+  color: white;
+}
+
+.adres {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+header a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+header h6 {
+  color: white;
+}
