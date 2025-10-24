@@ -4,6 +4,22 @@ header, h6 {
     margin-right: auto;
 }
 
+.content img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.food {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0px;
+}
+
 header {
   color: white;
 }
@@ -40,4 +56,23 @@ header a:active {
 
 header h6 {
   color: white;
+}
+
+table {
+  font-size: 11px;
+  color: black;
+  background-color: #C3BA9E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table td, th {
+  text-align: center;
+  padding: 10px;
+}
+
+table td {
+  border: 1px #0B2B45 solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
